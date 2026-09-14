@@ -1,0 +1,37 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+}
+.tabela{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 50px 40px;
+    gap: 20px;
+    flex-direction: column;
+    margin-bottom: 18vh;
+    width: 350px;
+    box-shadow: 2px 2px 5px 2px black;
+}
+.calcular{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #f8f7f7;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+.calcular:hover{
+    background-color: #e0e0e0;
+    transform: translateY(-3px)
+}
